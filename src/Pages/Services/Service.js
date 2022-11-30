@@ -1,19 +1,27 @@
 import React from 'react';
 
-const Service = () => {
+
+
+const Service = ({service}) => {
+	const {name, description, img,price} = service;
     return (
-       <div>
-        <div className="max-w-xs rounded-md shadow-md bg-gray-50 text-gray-800">
-	<img src="https://source.unsplash.com/random/300x300/?2" alt="" className="object-cover object-center w-full rounded-t-md h-72 bg-gray-500" />
-	<div className="flex flex-col justify-between p-6 space-y-8">
-		<div className="space-y-2">
-			<h2 className="text-3xl font-semibold tracking-wide">Donec lectus leo</h2>
-			<p className="text-gray-800">Curabitur luctus erat nunc, sed ullamcorper erat vestibulum eget.</p>
-		</div>
-		<button type="button" className="flex items-center justify-center w-full p-3 font-semibold tracking-wide rounded-md bg-indigo-600 text-gray-50">Read more</button>
-	</div>
+	<div>
+		<div className="card w-96 bg-base-100 shadow-xl">
+  <figure className="px-10 pt-10">
+    <img src={img}alt="" className="rounded-xl" />
+  </figure>
+  <div className="card-body items-center text-center">
+    <h2 className="card-title font-bold">{name}</h2>
+    <p>{description}</p>
+    <h2 className='font-bold text-blue-600'> Price: {price}</h2>
+    <div className="card-actions">
+	<button type="button" className="px-5 py-3 font-semibold rounded-full bg-blue-500 text-gray-100"> <a href='/login'>ORDER NOW</a></button>
+    </div>
+  </div>
 </div>
-       </div>
+</div>
+
+
     );
 };
 
