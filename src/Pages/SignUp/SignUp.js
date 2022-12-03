@@ -1,34 +1,54 @@
-import React from 'react';
+import React, { useContext } from 'react';
 import { useForm } from 'react-hook-form';
 import { Link } from 'react-router-dom';
+import { AuthContext } from '../../contexts/AuthProvider';
 
 const SignUp = () => {
 
-    const {register} =useForm();
+    const {register, handleSubmit, formState: { errors } } = useForm();
+    const {createUser} =useContext(AuthContext);
+
+    const handleSignUp = (data) => {
+      console.log(data)
+      createUser(data.email, data.password)
+      .then(result =>{
+      const user = result.user;
+      console.log(user) 
+      })
+      .catch(error => console.log(error))
+     
+
+    }
+
     return (
         <div className='h-[500px] flex justify-center items-center'>
            <div className='w-96 p-7 shadow-2xl bg-base-100'>
-                <h2 className='text-blue-500 text-3xl font-bold text-center'> SignUp</h2>
+                <h2 className='text-blue-500 text-3xl font-bold text-center'> Sign Up</h2>
                 
-        <form >
+        <form  onSubmit={handleSubmit(handleSignUp)}>
       <div className="form-control w-full max-w-xs">
   <label className="label">
     <span className="label-text">Name</span></label>
-  <input type="text" 
-   className="input input-bordered input-primary w-full max-w-xs" />
+  <input type="text" {...register("name", {required: "Name is Empty"})} className="input input-bordered input-primary w-full max-w-xs" />
+  {errors.name && <p className='text-red-500'>{errors.name?.message}</p>}
 </div>
       <div className="form-control w-full max-w-xs">
   <label className="label">
     <span className="label-text">Email</span></label>
-  <input type="text" 
-   className="input input-bordered input-primary w-full max-w-xs" />
+  <input type="email"   {...register("email", { required: "Email is Empty"
+    })} 
+    className="input input-bordered input-primary w-full max-w-xs" />
+     {errors.email && <p className='text-red-500'>{errors.email?.message}</p>}
 </div>
       <div className="form-control w-full max-w-xs">
   <label className="label">
     <span className="label-text">Password</span>
     </label>
-  <input type="password" 
+  <input type="password"  {...register("password", {
+    required: "Password is Empty"
+  })}
   className="input input-bordered input-primary  w-full max-w-xs" />
+   {errors.password && <p className='text-red-500'>{errors.password?.message}</p>}
 </div>
       <input className=" btn  w-full mt-5 px-8 py-3 font-semibold rounded-md bg-sky-600 text-gray-50" type="submit" />
     </form>

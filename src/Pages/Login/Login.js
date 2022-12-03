@@ -19,7 +19,7 @@ const Login = () => {
   <label className="label">
     <span className="label-text">Email</span></label>
 
-  <input type="text" 
+  <input type="email" 
   {...register("email", {required: "Email Address is Empty " 
     })}
    className="input input-bordered input-primary w-full max-w-xs" />
