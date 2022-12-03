@@ -4,8 +4,10 @@ import Blog from "../Pages/Blog/Blog";
 import Error from "../Pages/Error";
 import Home from "../Pages/Home/Home";
 import Login from "../Pages/Login/Login";
+import Orders from "../Pages/Orders/Orders";
 import Product from "../Pages/Product/Product";
 import SignUp from "../Pages/SignUp/SignUp";
+import PrivateRoute from "./PrivateRoute/PrivateRoute";
 
 
 
@@ -45,6 +47,11 @@ import SignUp from "../Pages/SignUp/SignUp";
            
         ]
 
+    },
+    {
+        path:'/orders',
+        element:<PrivateRoute><Orders></Orders></PrivateRoute>
+       
     }
 ])
 

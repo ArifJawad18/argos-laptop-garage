@@ -15,7 +15,7 @@ const Service = ({service}) => {
     <p>{description}</p>
     <h2 className='font-bold text-blue-600'> Price: {price}</h2>
     <div className="card-actions">
-	<button type="button" className="px-5 py-3 font-semibold rounded-full bg-blue-500 text-gray-100"> <a href='/login'>ORDER NOW</a></button>
+	<button type="button" className="px-5 py-3 font-semibold rounded-full bg-blue-500 text-gray-100"> <a href='/'>ORDER NOW</a></button>
     </div>
   </div>
 </div>

@@ -1,21 +1,37 @@
-import React, { useContext } from 'react';
+import React, { useContext, useState } from 'react';
 import { useForm } from 'react-hook-form';
+import toast from 'react-hot-toast';
 import { Link } from 'react-router-dom';
 import { AuthContext } from '../../contexts/AuthProvider';
+
 
 const SignUp = () => {
 
     const {register, handleSubmit, formState: { errors } } = useForm();
-    const {createUser} =useContext(AuthContext);
+    const {createUser, updateUser} =useContext(AuthContext);
+    const [signupError, setSignUpError] = useState('')
 
     const handleSignUp = (data) => {
-      console.log(data)
+      console.log(data);
+      setSignUpError('');
+
       createUser(data.email, data.password)
       .then(result =>{
       const user = result.user;
-      console.log(user) 
+      console.log(user);
+      toast.success('Successfully SignUp')
+      const userInfo = {
+        displayName: data.name
+      }
+      updateUser(userInfo)
+      .then(() =>{})
+      .catch(err => console.log(err))
+
       })
-      .catch(error => console.log(error))
+      .catch(error => {
+        console.log(error)
+        setSignUpError(error.message)
+      })
      
 
     }
@@ -50,7 +66,8 @@ const SignUp = () => {
   className="input input-bordered input-primary  w-full max-w-xs" />
    {errors.password && <p className='text-red-500'>{errors.password?.message}</p>}
 </div>
-      <input className=" btn  w-full mt-5 px-8 py-3 font-semibold rounded-md bg-sky-600 text-gray-50" type="submit" />
+      <input className=" btn  w-full mt-5 px-8 py-3 font-semibold rounded-md bg-sky-600 text-gray-50" value='SignUp' type="submit" />
+      {signupError && <p className='text-red-500'>{signupError}</p>}
     </form>
     <div className="flex items-center pt-4 space-x-1">
 		<div className="flex-1 h-px sm:w-16 bg-gray-300"></div>
