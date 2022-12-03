@@ -1,39 +1,34 @@
 import React from 'react';
 import { useForm } from 'react-hook-form';
 import { Link } from 'react-router-dom';
-const Login = () => {
-    const  {register, formState: { errors }, handleSubmit} = useForm()
-   
 
-    const handleLogin = data => {
-        console.log(data)
-        console.log(errors)
-    };
+const SignUp = () => {
+
+    const {register} =useForm();
     return (
         <div className='h-[500px] flex justify-center items-center'>
            <div className='w-96 p-7 shadow-2xl bg-base-100'>
-                <h2 className='text-blue-500 text-3xl font-bold text-center'> Login</h2>
-                <form onSubmit={handleSubmit(handleLogin)}>
-
+                <h2 className='text-blue-500 text-3xl font-bold text-center'> SignUp</h2>
+                
+        <form >
+      <div className="form-control w-full max-w-xs">
+  <label className="label">
+    <span className="label-text">Name</span></label>
+  <input type="text" 
+   className="input input-bordered input-primary w-full max-w-xs" />
+</div>
       <div className="form-control w-full max-w-xs">
   <label className="label">
     <span className="label-text">Email</span></label>
-
   <input type="text" 
-  {...register("email", {required: "Email Address is Empty " 
-    })}
    className="input input-bordered input-primary w-full max-w-xs" />
-    {errors.email && <p className='text-red-500'>{errors.email?.message}</p>}
 </div>
       <div className="form-control w-full max-w-xs">
   <label className="label">
     <span className="label-text">Password</span>
-    
     </label>
   <input type="password" 
-  {...register("password" ,{required: "Password is Empty"})} 
   className="input input-bordered input-primary  w-full max-w-xs" />
-  {errors.password && <p className='text-red-500'>{errors.password?.message}</p>}
 </div>
       <input className=" btn  w-full mt-5 px-8 py-3 font-semibold rounded-md bg-sky-600 text-gray-50" type="submit" />
     </form>
@@ -49,12 +44,11 @@ const Login = () => {
 			</svg>
 		</button>
         </div>
-            <p className=" text-center text-sm  text-gray-600">Don't have an account ?<Link className=' ml-2 text-blue-500' to='/signup'>Sign up </Link></p>
+            <p className=" text-center text-sm  text-gray-600">Already have an account ?<Link className=' ml-2 text-blue-500' to='/login'>Login </Link></p>
              
             </div> 
         </div>
-        
     );
 };
 
-export default Login;
+export default SignUp;

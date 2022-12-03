@@ -9,7 +9,6 @@ const Banner = () => {
     <div>
       <h1 className="text-5xl font-bold text-blue-500">Welcome To Argos Laptop Garage</h1>
       <p className="py-6 font-bold">Get Products Easily</p>
-      
     </div>
   </div>
 </div>
