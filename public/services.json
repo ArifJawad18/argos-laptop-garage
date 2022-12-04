@@ -1,0 +1,26 @@
+[
+  {
+    "_id": "1",
+    "service_id": "01",
+    "title": "Apple",
+    "img": "",
+    "price": "100",
+    "description": "Manage and reduce joint pain. Increase range of motion, function, dexterity, and strength. Desensiti "
+  },
+  {
+    "_id": "2",
+    "service_id": "02",
+    "title": "Dell",
+    "img": "",
+    "price": "309",
+    "description": "Often, the person's posture will continue to worsen, and their muscles will weaken even further."
+  },
+  {
+    "_id": "3",
+    "service_id": "03",
+    "title": "H",
+    "img": "",
+    "price": "200",
+    "description": "If you are a runner or an athlete or you do your daily chores or nothing at all, you might once in a "
+  }
+]
