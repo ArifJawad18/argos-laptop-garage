@@ -1,9 +1,26 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
+import ProductCard from './ProductCard';
 
 const Product = () => {
+    const [services, setServices] = useState([]);
+    
+    useEffect( () =>{
+        fetch('allservice.json')
+        .then(res =>res.json())
+        .then(data => setServices(data))
+
+    },[])
     return (
         <div>
-            <h1>Product</h1>
+            <div className='grid gap-6 ml-8 grid-cols-1 md:grid-cols-2 lg:grid-cols-3'>
+           {
+            services.map(service => <ProductCard
+            key={service._id}
+            service={service}
+            ></ProductCard>)
+
+           }
+        </div>
         </div>
     );
 };
