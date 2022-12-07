@@ -8,6 +8,7 @@ const Home = () => {
         <div className='mx-5'>
         <Banner></Banner>
         <Services></Services>
+	
 
         <section className="p-6 my-6 bg-gray-100 text-gray-800">
 	<div className="container grid grid-cols-1 gap-6 mx-auto sm:grid-cols-2 xl:grid-cols-4">
@@ -65,6 +66,7 @@ const Home = () => {
 				<p className="capitalize">Bounce rate</p>
 			</div>
 		</div>
+	
 	</div>
 </section>
      
