@@ -5,7 +5,7 @@ const Product = () => {
     const [services, setServices] = useState([]);
     
     useEffect( () =>{
-        fetch('allservice.json')
+        fetch('')
         .then(res =>res.json())
         .then(data => setServices(data))
 

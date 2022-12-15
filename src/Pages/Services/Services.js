@@ -7,12 +7,10 @@ const Services = () => {
         fetch('http://localhost:5000/allservice')
         .then(res =>res.json())
         .then(data => setServices(data))
-
     },[])
 
     return (
         <div>
-          
             <div>
                 <h2 className ='text-3xl text-center uppercase font-bold text-blue-500'> Our Product </h2>
              </div>
