@@ -1,11 +1,13 @@
 import { createBrowserRouter } from "react-router-dom";
 import Main from "../Layout/Main";
+import OrdersLayout from "../Layout/OrdersLayout";
 import Blog from "../Pages/Blog/Blog";
+import CheckOut from "../Pages/CheckOut/CheckOut";
 import Error from "../Pages/Error";
 import Home from "../Pages/Home/Home";
 import Login from "../Pages/Login/Login";
 import Orders from "../Pages/Orders/Orders";
-import Product from "../Pages/Product/Product";
+
 import SignUp from "../Pages/SignUp/SignUp";
 import PrivateRoute from "./PrivateRoute/PrivateRoute";
 
@@ -25,10 +27,11 @@ import PrivateRoute from "./PrivateRoute/PrivateRoute";
                 element:<Blog></Blog>
             },
             {
-                path:'/product',
-                element:<Product></Product>
+                path:'/checkout/:id',
+                element:<CheckOut></CheckOut>,
+                loader: ({params})=> fetch(`http://localhost:5000/allservice/${params.id}`)
+                
             },
-         
             {
                 path:'/login',
                 element:<Login></Login>
@@ -50,7 +53,13 @@ import PrivateRoute from "./PrivateRoute/PrivateRoute";
     },
     {
         path:'/orders',
-        element:<PrivateRoute><Orders></Orders></PrivateRoute>
+        element:<PrivateRoute><OrdersLayout></OrdersLayout></PrivateRoute>,
+        children: [
+            {
+            path:'/orders',
+            element:<Orders></Orders>
+            }
+        ]
        
     }
 ])

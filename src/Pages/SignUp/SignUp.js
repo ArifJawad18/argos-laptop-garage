@@ -12,7 +12,7 @@ const SignUp = () => {
   } = useForm();
   const { createUser, updateUser } = useContext(AuthContext);
   const [signupError, setSignUpError] = useState("");
-  const navigat = useNavigate()
+  const navigat = useNavigate();
 
   const handleSignUp = (data) => {
     console.log(data);
@@ -28,7 +28,7 @@ const SignUp = () => {
         };
         updateUser(userInfo)
           .then(() => {
-            Navigate('/')
+            Navigate("/");
           })
           .catch((err) => console.log(err));
       })
