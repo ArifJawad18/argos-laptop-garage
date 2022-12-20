@@ -1,8 +1,21 @@
-import React from "react";
+import React, { useContext, useEffect, useState } from "react";
+import { AuthContext } from "../../contexts/AuthProvider";
 
 const Orders = () => {
+  const {user} = useContext(AuthContext);
+  const [order,setOrder] = useState({})
+
+
+
+useEffect(() =>{
+  fetch( `http://localhost:5000/orders?email=${user.email}`)
+  .then(res => res.json())
+  .then(data => setOrder(data))
+},[user?.email])
+
   return (
     <div>
+      <h1>you have{Orders.length}</h1>
       <div className="text-3xl mb-5 text-blue-500 text-center">Orders</div>
       <div className="overflow-x-auto">
         <table className="table w-full">
