@@ -12,14 +12,6 @@ const OrdersLayout = () => {
     <Outlet></Outlet>
   
   </div> 
-  <div className="drawer-side">
-    <label htmlFor="orders-drawer" className="drawer-overlay"></label> 
-    <ul className="menu p-4 w-80 bg-base-100 text-base-content">
-   
-      
-    </ul>
-  
-  </div>
 </div>
         </div>
     );
