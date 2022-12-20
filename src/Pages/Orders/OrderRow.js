@@ -18,7 +18,7 @@ const OrderRow = ({order, handleDelete, handleStatusUpdate}) => {
                 <div className="flex items-center space-x-3">
                 <th>
             <label>
-            <button onClick={() => handleDelete(_id)} className="btn btn-ghost">X</button>
+            <button onClick={() => handleDelete(_id)} className="btn btn-warning btn-xs">Delete</button>
             </label>
           </th>
                 
