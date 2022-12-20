@@ -1,7 +1,7 @@
 import React from "react";
 
-const OrderRow = ({order, handleDelete}) => {
-  const { _id, serviceName, customer,phone, price, email } = order;
+const OrderRow = ({order, handleDelete, handleStatusUpdate}) => {
+  const { _id, serviceName, customer,phone, price, email, status } = order;
   
 
 
@@ -32,12 +32,12 @@ const OrderRow = ({order, handleDelete}) => {
               Order Name: {serviceName}
                 <br />
                 <span className="badge badge-ghost badge-sm">
-                 Price: {price}
+                 Email: {email}
                 </span>
               </td>
-              <td>{email}</td>
+              <td> Price: {price}</td>
               <th>
-                <button className="btn btn-ghost btn-xs">details</button>
+                <button onClick={() => handleStatusUpdate(_id)} className="btn btn-primary btn-xs">{status ? status: 'Pending'}</button>
               </th>
             </tr>
 
