@@ -17,7 +17,7 @@ const Service = ({service}) => {
     <h2 className='font-bold text-blue-600'> Price: {price}</h2>
     <div className="card-actions">
     <Link to={`/checkout/${_id}`}>
-    <button type="button" className="flex items-center justify-center w-full p-3 font-semibold tracking-wide rounded-full bg-blue-600 text-gray-50"> <a href="/">ORDER NOW</a></button>
+    <button type="button" className="flex items-center justify-center w-full p-3 font-semibold tracking-wide rounded-full bg-blue-600 text-gray-50"> <a href="#">ORDER NOW</a></button>
     </Link>
     </div>
   </div>
