@@ -2,7 +2,8 @@ import React from "react";
 import { Link } from "react-router-dom";
 
 const OrderRow = ({ order, handleDelete, handleStatusUpdate }) => {
-  const { _id, serviceName, customer, phone, price, email, message, status } = order;
+  const { _id, serviceName, customer, phone, price, email, status } =
+    order;
 
   return (
     <div>
@@ -28,9 +29,7 @@ const OrderRow = ({ order, handleDelete, handleStatusUpdate }) => {
                     <div className="font-bold">{customer}</div>
                     <div className="text-sm opacity-50">
                       Phone Number: {phone}
-                      
                     </div>
-                   
                   </div>
                 </div>
               </td>
@@ -41,11 +40,10 @@ const OrderRow = ({ order, handleDelete, handleStatusUpdate }) => {
                   Email: {email}
                 </span>
               </td>
-              <td> Price: <strong>${price}</strong>
-              <br/>
-                <span className="badge badge-ghost badge-sm">
-                Message: {message}
-                </span></td>
+              <td>
+                {" "}
+                Price: <strong>${price}</strong>
+              </td>
               <th>
                 <button
                   onClick={() => handleStatusUpdate(_id)}
@@ -67,7 +65,7 @@ const OrderRow = ({ order, handleDelete, handleStatusUpdate }) => {
                   </Link>
                 )}
                 {order.price && order.paid && (
-                  <span className=" btn btn-warning text-yellow-50 btn-xs">
+                  <span className=" btn btn-warning text-yellow-500 btn-xs">
                     Paid
                   </span>
                 )}
