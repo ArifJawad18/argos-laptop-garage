@@ -12,65 +12,61 @@ import SignUp from "../Pages/SignUp/SignUp";
 import DisplayError from "../Shared/DisplayError/DisplayError";
 import PrivateRoute from "./PrivateRoute/PrivateRoute";
 
-
-
- const router = createBrowserRouter([
-    {
-        path: '/',
-        element: <Main></Main>,
-        errorElement: <DisplayError></DisplayError>,
-        children:[
-            {
-                path: '/',
-                element: <Home></Home>
-            },
-            {
-                path:'/blog',
-                element:<Blog></Blog>
-            },
-            {
-                path:'/checkout/:id',
-                element:<CheckOut></CheckOut>,
-                loader: ({params})=> fetch(`http://localhost:5000/allservice/${params.id}`)
-                
-            },
-            {
-                path:'/login',
-                element:<Login></Login>
-
-            },
-            {
-                path:'/signup',
-                element:<SignUp></SignUp>
-
-            },
-            {
-                path:'/orders/payment/:id',
-                element:<Payment></Payment>,
-                loader: ({params})=> fetch(`http://localhost:5000/orders/${params.id}`)
-
-            },
-            {
-                path:'*',
-                element:<Error></Error>
-
-            },
-           
-        ]
-
-    },
-    {
-        path:'/orders',
-        element:<PrivateRoute><OrdersLayout></OrdersLayout></PrivateRoute>,
-        errorElement: <DisplayError></DisplayError>,
-        children: [
-            {
-            path:'/orders',
-            element:<Orders></Orders>
-            }
-        ]
-       
-    }
-])
+const router = createBrowserRouter([
+  {
+    path: "/",
+    element: <Main></Main>,
+    errorElement: <DisplayError></DisplayError>,
+    children: [
+      {
+        path: "/",
+        element: <Home></Home>,
+      },
+      {
+        path: "/blog",
+        element: <Blog></Blog>,
+      },
+      {
+        path: "/checkout/:id",
+        element: <CheckOut></CheckOut>,
+        loader: ({ params }) =>
+          fetch(`http://localhost:5000/allservice/${params.id}`),
+      },
+      {
+        path: "/login",
+        element: <Login></Login>,
+      },
+      {
+        path: "/signup",
+        element: <SignUp></SignUp>,
+      },
+      {
+        path: "/orders/payment/:id",
+        element: <Payment></Payment>,
+        loader: ({ params }) =>
+          fetch(`http://localhost:5000/orders/${params.id}`),
+      },
+      {
+        path: "*",
+        element: <Error></Error>,
+      },
+    ],
+  },
+  {
+    path: "/orders",
+    element: (
+      <PrivateRoute>
+        <OrdersLayout></OrdersLayout>
+      </PrivateRoute>
+    ),
+    errorElement: <DisplayError></DisplayError>,
+    children: [
+      {
+        path: "/orders",
+        element: <Orders></Orders>,
+      },
+    ],
+  },
+]);
 
 export default router;

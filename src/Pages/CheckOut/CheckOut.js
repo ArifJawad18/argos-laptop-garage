@@ -55,6 +55,10 @@ const CheckOut = () => {
 			<label for="price" className="block mb-1 ml-1"></label>
 			<input id="price" type="text" placeholder="Price" defaultValue={price} required="" className="block w-full p-2 rounded focus:outline-none focus:ring focus:ring-opacity-25 focus:ring-sky-600 bg-gray-100" />
 		</div>
+        <div>
+			<label for="email" className="block mb-1 ml-1"></label>
+			<input id="email" type="email" placeholder="Your email" defaultValue={user?.email} disabled required="" className="block w-full p-2 rounded focus:outline-none focus:ring focus:ring-opacity-25 focus:ring-sky-600 bg-gray-100" readOnly/>
+		</div>
 		<div>
 			<label for="name" className="block mb-1 ml-1"></label>
 			<input id="name" type="text" placeholder="Your name"   className="block w-full p-2 rounded focus:outline-none focus:ring focus:ring-opacity-25 focus:ring-sky-600 bg-gray-100" />
@@ -63,10 +67,7 @@ const CheckOut = () => {
 			<label for="phone" className="block mb-1 ml-1"></label>
 			<input id="phone" type="text" placeholder="Phone number" className="block w-full p-2 rounded focus:outline-none focus:ring focus:ring-opacity-25 focus:ring-sky-600 bg-gray-100" />
 		</div>
-		<div>
-			<label for="email" className="block mb-1 ml-1"></label>
-			<input id="email" type="email" placeholder="Your email" defaultValue={user?.email} disabled required="" className="block w-full p-2 rounded focus:outline-none focus:ring focus:ring-opacity-25 focus:ring-sky-600 bg-gray-100" readOnly/>
-		</div>
+	
 		<div>
 			<label for="message" className="block mb-1 ml-1"></label>
 			<textarea id="message" type="text" placeholder="Message..." required className="block w-full p-2 rounded autoexpand focus:outline-none focus:ring focus:ring-opacity-25 focus:ring-sky-600 bg-gray-100"></textarea>

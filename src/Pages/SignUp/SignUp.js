@@ -38,21 +38,18 @@ const SignUp = () => {
       });
   };
 
-  const getUserToken = email =>{
+  const getUserToken = (email) => {
     fetch(`http://localhost:5000/jwt?email=${email}`)
-    .then(res => res.json())
-    .then(data =>{
-      if(data.accessToken){
-        localStorage.setItem('accessToken', data.accessToken)
-
-       
-
-      }
-    })
-  }
+      .then((res) => res.json())
+      .then((data) => {
+        if (data.accessToken) {
+          localStorage.setItem("accessToken", data.accessToken);
+        }
+      });
+  };
 
   return (
-    <div className="h-[500px] flex justify-center items-center">
+    <div className="h-[620px] flex justify-center items-center ">
       <div className="w-96 p-7 shadow-2xl bg-base-100">
         <h2 className="text-blue-500 text-3xl font-bold text-center">
           {" "}
@@ -85,6 +82,14 @@ const SignUp = () => {
             {errors.email && (
               <p className="text-red-500">{errors.email?.message}</p>
             )}
+          </div>
+
+          <div className="form-control w-full max-w-xs mt-4">
+            <span className="label-text ">Register for </span>
+            <select className="select select-primary w-full max-w-xs mt-2">
+              <option>Buyer</option>
+              <option>Seller</option>
+            </select>
           </div>
           <div className="form-control w-full max-w-xs">
             <label className="label">
