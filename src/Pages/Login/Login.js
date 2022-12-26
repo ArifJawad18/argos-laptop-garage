@@ -31,7 +31,7 @@ const Login = () => {
         console.log(currentUser);
 
         //get jwt token
-        fetch("https://argos-laptop-garage.vercel.app/jwt", {
+        fetch("/jwt", {
           method: "POST",
           headers: {
             "content type": "application/json",

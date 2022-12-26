@@ -25,7 +25,7 @@ const CheckOut = () => {
             message
         }
        
-        fetch('https://argos-laptop-garage.vercel.app/orders',{
+        fetch('/orders',{
             method:'POST',
             headers: {
                 'content-type':'application/json'

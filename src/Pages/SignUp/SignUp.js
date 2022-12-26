@@ -39,7 +39,7 @@ const SignUp = () => {
   };
 
   const getUserToken = (email) => {
-    fetch(`https://argos-laptop-garage.vercel.app/jwt?email=${email}`)
+    fetch(`/jwt?email=${email}`)
       .then((res) => res.json())
       .then((data) => {
         if (data.accessToken) {

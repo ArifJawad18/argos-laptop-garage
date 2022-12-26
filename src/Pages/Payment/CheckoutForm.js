@@ -13,7 +13,7 @@ const CheckoutForm = ({ orders }) => {
 
   useEffect(() => {
     // Create PaymentIntent
-    fetch("https://argos-laptop-garage.vercel.app/create-payment-intent", {
+    fetch("/create-payment-intent", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
@@ -78,7 +78,7 @@ const CheckoutForm = ({ orders }) => {
         ordersId: _id,
       };
 
-      fetch("https://argos-laptop-garage.vercel.app/payments", {
+      fetch("/payments", {
         method: "POST",
         headers: {
           "content-type": "application/json",
