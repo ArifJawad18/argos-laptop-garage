@@ -42,8 +42,6 @@ const CheckOut = () => {
         })
         
     }
-
-    
     return (
         <div>
            <section className="p-6 text-gray-800">

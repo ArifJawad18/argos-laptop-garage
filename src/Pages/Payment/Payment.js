@@ -19,8 +19,8 @@ const Payment = () => {
 
   return (
     <div>
-      <div>
-        <section className="p-6 bg-gray-100 text-gray-900">
+      <div className="mt-5">
+        <section className="p-6 bg-gray-100 text-gray-500">
           <form
             novalidate=""
             action=""
