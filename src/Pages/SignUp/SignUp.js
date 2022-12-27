@@ -1,7 +1,7 @@
 import React, { useContext, useState } from "react";
 import { useForm } from "react-hook-form";
 import toast from "react-hot-toast";
-import { Link, Navigate, useNavigate } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import { AuthContext } from "../../contexts/AuthProvider";
 
 const SignUp = () => {
@@ -28,7 +28,7 @@ const SignUp = () => {
         };
         updateUser(userInfo)
           .then(() => {
-            Navigate("/");
+            navigate("/");
           })
           .catch((err) => console.log(err));
       })
@@ -38,15 +38,7 @@ const SignUp = () => {
       });
   };
 
-  const getUserToken = (email) => {
-    fetch(`/jwt?email=${email}`)
-      .then((res) => res.json())
-      .then((data) => {
-        if (data.accessToken) {
-          localStorage.setItem("accessToken", data.accessToken);
-        }
-      });
-  };
+ 
 
   return (
     <div className="h-[620px] flex justify-center items-center ">
