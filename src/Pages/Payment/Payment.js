@@ -1,7 +1,7 @@
 import { Elements } from "@stripe/react-stripe-js";
 import { loadStripe } from "@stripe/stripe-js";
 import React from "react";
-import { useLoaderData } from "react-router-dom";
+import { useLoaderData, useNavigate } from "react-router-dom";
 import CheckoutForm from "./CheckoutForm";
 
 const stripePromise = loadStripe(process.env.REACT_APP_STRIPE_PK);
@@ -10,11 +10,11 @@ console.log(stripePromise);
 
 const Payment = () => {
   const orders = useLoaderData();
-  // const navigation = useNavigate();
+   const navigation = useNavigate();
   const { serviceName, price, email } = orders;
-  // if (navigation.state === "loading") {
-  //   return <Loading></Loading>;
-  // }
+  if (navigation.state === "loading") {
+    return ;
+  }
 
   return (
     <div>
