@@ -30,7 +30,7 @@ const router = createBrowserRouter([
         path: "/checkout/:id",
         element: <CheckOut></CheckOut>,
         loader: ({ params }) =>
-          fetch(`http://localhost:5000/allservice/${params.id}`),
+          fetch(`https://argos-laptop-garage-server.vercel.app/allservice/${params.id}`),
       },
       {
         path: "/login",
@@ -44,7 +44,7 @@ const router = createBrowserRouter([
         path: "/orders/payment/:id",
         element: <Payment></Payment>,
         loader: ({ params }) =>
-          fetch(`http://localhost:5000/orders/${params.id}`),
+          fetch(`https://argos-laptop-garage-server.vercel.app/orders/${params.id}`),
       },
       {
         path: "*",
