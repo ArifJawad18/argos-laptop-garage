@@ -8,9 +8,9 @@ const Home = () => {
       <Banner></Banner>
       <Services></Services>
 
-      <section className="p-6 my-6 bg-gray-100 text-gray-800">
+      <section className="p-6 my-6 bg-gray-700 text-gray-800">
         <div className="container grid grid-cols-1 gap-6 mx-auto sm:grid-cols-2 xl:grid-cols-4">
-          <div className="flex p-4 space-x-4 rounded-lg md:space-x-6 bg-gray-50 text-gray-800">
+          <div className="flex p-4 space-x-4 rounded-lg md:space-x-6 bg-gray-600 text-gray-100">
             <div className="flex justify-center p-2 align-middle rounded-lg sm:p-4 bg-sky-600">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -28,7 +28,7 @@ const Home = () => {
               <p className="capitalize">Orders</p>
             </div>
           </div>
-          <div className="flex p-4 space-x-4 rounded-lg md:space-x-6 bg-gray-50 text-gray-800">
+          <div className="flex p-4 space-x-4 rounded-lg md:space-x-6 bg-gray-600 text-gray-100">
             <div className="flex justify-center p-2 align-middle rounded-lg sm:p-4 bg-sky-600">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -47,7 +47,7 @@ const Home = () => {
               <p className="capitalize">New customers</p>
             </div>
           </div>
-          <div className="flex p-4 space-x-4 rounded-lg md:space-x-6 bg-gray-50 text-gray-800">
+          <div className="flex p-4 space-x-4 rounded-lg md:space-x-6 bg-gray-600 text-gray-100">
             <div className="flex justify-center p-2 align-middle rounded-lg sm:p-4 bg-sky-600">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -68,7 +68,7 @@ const Home = () => {
               <p className="capitalize">Growth</p>
             </div>
           </div>
-          <div className="flex p-4 space-x-4 rounded-lg md:space-x-6 bg-gray-50 text-gray-800">
+          <div className="flex p-4 space-x-4 rounded-lg md:space-x-6 bg-gray-600 text-gray-100">
             <div className="flex justify-center p-2 align-middle rounded-lg sm:p-4 bg-sky-600">
               <svg
                 xmlns="http://www.w3.org/2000/svg"

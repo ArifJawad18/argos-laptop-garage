@@ -3,7 +3,7 @@ import React from "react";
 const Blog = () => {
   return (
     <div>
-      <section className="bg-gray-100 text-gray-800">
+      <section className="bg-gray-900 text-gray-100">
         <div className="container flex flex-col justify-center p-4 mx-auto md:p-8">
           <h2 className="mb-12 text-4xl font-bold leading-none text-center sm:text-5xl">
             Blog Questions
@@ -14,7 +14,7 @@ const Blog = () => {
                 What are the different ways to manage a state in a React
                 application?
               </h3>
-              <p className="mt-1 text-gray-600">
+              <p className="mt-1 text-gray-100">
                 Global state is necessary when we want to get and update data
                 anywhere in our app, or in multiple components at least. Server
                 state Data that comes from an external server that must be
@@ -29,7 +29,7 @@ const Blog = () => {
               <h3 className="font-semibold">
                 How does prototypical inheritance work?
               </h3>
-              <p className="mt-1 text-gray-600">
+              <p className="mt-1 text-gray-100">
                 JavaScript objects are dynamic "bags" of properties (referred to
                 as own properties). JavaScript objects have a link to a
                 prototype object. When trying to access a property of an object,
@@ -43,7 +43,7 @@ const Blog = () => {
               <h3 className="font-semibold">
                 What is a unit test? Why should we write unit tests?
               </h3>
-              <p className="mt-1 text-gray-600">
+              <p className="mt-1 text-gray-100">
                 When it comes to software testing, there are many ways to go
                 about it, both manually and in an automated fashion. So, you can
                 interpret the question “why to write unit tests?” in at least
@@ -54,7 +54,7 @@ const Blog = () => {
             </div>
             <div>
               <h3 className="font-semibold">React vs. Angular vs. Vue?</h3>
-              <p className="mt-1 text-gray-600">
+              <p className="mt-1 text-gray-100">
                 If the choice you’re making is based on Angular vs React alone,
                 then you’ll simply need to consider the pros and cons discussed
                 for those libraries in this post. But overall, keep in mind that

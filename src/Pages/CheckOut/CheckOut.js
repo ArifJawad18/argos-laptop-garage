@@ -25,7 +25,7 @@ const CheckOut = () => {
             message
         }
        
-        fetch('/orders',{
+        fetch('http://localhost:5000/orders',{
             method:'POST',
             headers: {
                 'content-type':'application/json'
@@ -45,7 +45,7 @@ const CheckOut = () => {
     return (
         <div>
            <section className="p-6 text-gray-800">
-	<form  onSubmit={handlePlaceOrder}  novalidate="" className="container w-full max-w-xl p-8 mx-auto space-y-6 rounded-md shadow bg-gray-50 ng-untouched ng-pristine ng-valid">
+	<form  onSubmit={handlePlaceOrder}  novalidate="" className="container w-full max-w-xl p-8 mx-auto space-y-6 rounded-md shadow bg-gray-700 ng-untouched ng-pristine ng-valid">
 		
 		<div>
 			<label for="name" className="block mb-1 ml-1"></label>

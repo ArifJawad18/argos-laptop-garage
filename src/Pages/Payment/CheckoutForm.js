@@ -106,7 +106,7 @@ const CheckoutForm = ({ orders }) => {
             style: {
               base: {
                 fontSize: "16px",
-                color: "#424770",
+                color: "#FFFFFF",
                 "::placeholder": {
                   color: "#aab7c4",
                 },
@@ -118,7 +118,7 @@ const CheckoutForm = ({ orders }) => {
           }}
         />
         <button
-          className="btn btn-sm btn-primary mt-5"
+          className="btn btn-sm btn-info mt-5"
           type="submit"
           disabled={!stripe || !clientSecret || processing}
         >
