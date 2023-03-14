@@ -38,8 +38,6 @@ const SignUp = () => {
       });
   };
 
- 
-
   return (
     <div className="h-[620px] flex justify-center items-center ">
       <div className="w-96 p-7 shadow-2xl bg-base-100">

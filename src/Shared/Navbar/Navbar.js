@@ -36,7 +36,6 @@ const Navbar = () => {
         <li>
           <Link to="/login">Login</Link>
         </li>
-       
       )}
     </React.Fragment>
   );

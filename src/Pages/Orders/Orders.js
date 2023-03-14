@@ -8,7 +8,9 @@ const Orders = () => {
   const [orders, setOrder] = useState([]);
 
   useEffect(() => {
-    fetch(`https://argos-laptop-garage-server.vercel.app/orders?email=${user.email}`)
+    fetch(
+      `https://argos-laptop-garage-server.vercel.app/orders?email=${user.email}`
+    )
       .then((res) => res.json())
       .then((data) => setOrder(data));
   }, [user?.email]);

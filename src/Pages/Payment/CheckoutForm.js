@@ -69,7 +69,7 @@ const CheckoutForm = ({ orders }) => {
       return;
     }
     if (paymentIntent.status === "succeeded") {
-      console.log('card info', card);
+      console.log("card info", card);
 
       const payment = {
         price,
@@ -89,14 +89,13 @@ const CheckoutForm = ({ orders }) => {
         .then((res) => res.json())
         .then((data) => {
           console.log(data);
-          if (data.insertedId){
+          if (data.insertedId) {
             setSuccess("Yes! Your Payment Completed");
             setTransactionId(paymentIntent.id);
           }
           setProcessing(false);
         });
     }
-    
   };
   return (
     <>
