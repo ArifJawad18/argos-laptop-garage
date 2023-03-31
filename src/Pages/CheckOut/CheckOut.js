@@ -43,11 +43,11 @@ const CheckOut = () => {
   };
   return (
     <div>
-      <section className="p-6 text-gray-800">
+      <section className="p-6 text-gray-900">
         <form
           onSubmit={handlePlaceOrder}
           novalidate=""
-          className="container w-full max-w-xl p-8 mx-auto space-y-6 rounded-md shadow bg-gray-700 ng-untouched ng-pristine ng-valid"
+          className="container w-full max-w-xl p-8 mx-auto space-y-6 rounded-md shadow bg-gray-100 ng-untouched ng-pristine ng-valid"
         >
           <div>
             <label for="name" className="block mb-1 ml-1"></label>
@@ -57,7 +57,7 @@ const CheckOut = () => {
               placeholder="Your name"
               defaultValue={title}
               required=""
-              className="block w-full p-2 rounded focus:outline-none focus:ring focus:ring-opacity-25 focus:ring-sky-600 bg-gray-100"
+              className="block w-full p-2 rounded focus:outline-none focus:ring focus:ring-opacity-25 focus:ring-sky-600 bg-white"
             />
           </div>
           <div>
@@ -68,7 +68,7 @@ const CheckOut = () => {
               placeholder="Price"
               defaultValue={price}
               required=""
-              className="block w-full p-2 rounded focus:outline-none focus:ring focus:ring-opacity-25 focus:ring-sky-600 bg-gray-100"
+              className="block w-full p-2 rounded focus:outline-none focus:ring focus:ring-opacity-25 focus:ring-sky-600 bg-white"
             />
           </div>
           <div>
@@ -80,7 +80,7 @@ const CheckOut = () => {
               defaultValue={user?.email}
               disabled
               required=""
-              className="block w-full p-2 rounded focus:outline-none focus:ring focus:ring-opacity-25 focus:ring-sky-600 bg-gray-100"
+              className="block w-full p-2 rounded focus:outline-none focus:ring focus:ring-opacity-25 focus:ring-sky-600 bg-white"
               readOnly
             />
           </div>
@@ -90,7 +90,7 @@ const CheckOut = () => {
               id="name"
               type="text"
               placeholder="Your name"
-              className="block w-full p-2 rounded focus:outline-none focus:ring focus:ring-opacity-25 focus:ring-sky-600 bg-gray-100"
+              className="block w-full p-2 rounded focus:outline-none focus:ring focus:ring-opacity-25 focus:ring-sky-600 bg-white"
             />
           </div>
           <div>
@@ -99,7 +99,7 @@ const CheckOut = () => {
               id="phone"
               type="text"
               placeholder="Phone number"
-              className="block w-full p-2 rounded focus:outline-none focus:ring focus:ring-opacity-25 focus:ring-sky-600 bg-gray-100"
+              className="block w-full p-2 rounded focus:outline-none focus:ring focus:ring-opacity-25 focus:ring-sky-600 bg-white"
             />
           </div>
 
@@ -110,7 +110,7 @@ const CheckOut = () => {
               type="text"
               placeholder="Message..."
               required
-              className="block w-full p-2 rounded autoexpand focus:outline-none focus:ring focus:ring-opacity-25 focus:ring-sky-600 bg-gray-100"
+              className="block w-full p-2 rounded autoexpand focus:outline-none focus:ring focus:ring-opacity-25 focus:ring-sky-600 bg-white"
             ></textarea>
           </div>
           <div>

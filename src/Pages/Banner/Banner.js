@@ -9,7 +9,7 @@ const Banner = () => {
       <div className="hero-content flex-col lg:flex-row">
         <div className="carousel  w-full">
           <div id="slide1" className="carousel-item relative w-full">
-            <img src={laptop3} className="w-full" />
+            <img src={laptop} className="w-full" />
             <div className="absolute flex justify-between transform -translate-y-1/2 left-3 right-3 top-1/2">
               <a href="#slide4" className="btn btn-circle">
                 ❮
@@ -31,7 +31,7 @@ const Banner = () => {
             </div>
           </div>
           <div id="slide3" className="carousel-item relative w-full">
-            <img src={laptop} className="w-full" />
+            <img src={laptop3} className="w-full" />
             <div className="absolute flex justify-between transform -translate-y-1/2 left-3 right-3 top-1/2">
               <a href="#slide1" className="btn btn-circle">
                 ❮

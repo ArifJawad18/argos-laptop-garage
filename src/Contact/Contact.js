@@ -41,9 +41,9 @@ const Contact = () => {
 			</label>
 			<label className="block">
 				<span className="mb-1">Message</span>
-				<textarea rows="3" className="block w-full rounded-md focus:ring focus:ring-opacity-75 focus:ring-blue-400 dark:bg-gray-800"></textarea>
+				<textarea rows="3"  placeholder="Message" className="block w-full rounded-md focus:ring focus:ring-opacity-75 focus:ring-blue-400 dark:bg-white"></textarea>
 			</label>
-			<button type="button" className="self-center px-8 py-3 text-lg rounded focus:ring hover:ring focus:ring-opacity-75 dark:bg-blue-400 dark:text-gray-900 focus:ring-blue-400 hover:ring-blue-400">Submit</button>
+			<button type="button" className="self-center px-8 py-3 text-lg rounded focus:ring hover:ring focus:ring-opacity-75 bg-blue-400 dark:text-blue-400 focus:ring-blue-400 hover:ring-blue-400 text-white">Submit</button>
 		</form>
 	</div>
 </section>
