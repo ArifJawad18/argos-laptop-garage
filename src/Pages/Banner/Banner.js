@@ -1,54 +1,51 @@
 import React from 'react';
-import laptop from '../Banner/laptop.png';
-import laptop2 from '../Banner/laptop2.png';
-import laptop3 from '../Banner/laptop3.png';
 
 const Banner = () => {
   return (
-    <div className="hero">
-      <div className="hero-content flex-col lg:flex-row">
-        <div className="carousel  w-full">
-          <div id="slide1" className="carousel-item relative w-full">
-            <img src={laptop} className="w-full" />
-            <div className="absolute flex justify-between transform -translate-y-1/2 left-3 right-3 top-1/2">
-              <a href="#slide4" className="btn btn-circle">
-                ❮
-              </a>
-              <a href="#slide2" className="btn btn-circle">
-                ❯
-              </a>
-            </div>
-          </div>
-          <div id="slide2" className="carousel-item relative w-full">
-            <img src={laptop2} className="w-full" />
-            <div className="absolute flex justify-between transform -translate-y-1/2 left-3 right-3 top-1/2">
-              <a href="#slide1" className="btn btn-circle">
-                ❮
-              </a>
-              <a href="#slide3" className="btn btn-circle">
-                ❯
-              </a>
-            </div>
-          </div>
-          <div id="slide3" className="carousel-item relative w-full">
-            <img src={laptop3} className="w-full" />
-            <div className="absolute flex justify-between transform -translate-y-1/2 left-3 right-3 top-1/2">
-              <a href="#slide1" className="btn btn-circle">
-                ❮
-              </a>
-              <a href="#slide3" className="btn btn-circle">
-                ❯
-              </a>
-            </div>
-          </div>
-        </div>
-        <div>
-          <h1 className="text-5xl font-bold text-blue-500">
-            Welcome To Argos Laptop Garage
-          </h1>
-          <p className="py-6 font-bold">Get Products Easily</p>
-        </div>
+    <div>
+      <section
+  class="relative bg-[url(https://images.unsplash.com/photo-1496181133206-80ce9b88a853?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=871&q=80)] bg-cover bg-center bg-no-repeat"
+>
+
+  <div
+    class="absolute inset-0 bg-white/70 sm:bg-transparent sm:bg-gradient-to-r sm:from-black/50 sm:to-white/40"
+  ></div>
+
+  <div
+    class="relative mx-auto max-w-screen-xl px-4 py-32 sm:px-6 lg:flex lg:h-screen lg:items-center lg:px-8"
+  >
+    <div class="max-w-xl text-center sm:text-left">
+      <h1 class="text-3xl text-white font-extrabold sm:text-5xl">
+        Let's find your
+
+        <strong class="block font-extrabold text-blue-600">
+        Best Laptop 
+        </strong>
+      </h1>
+
+      <p class="mt-4 max-w-lg sm:text-xl text-white sm:leading-relaxed">
+      Welcome To Argos Laptop Garage <br/>
+      Get Products Easily
+      </p>
+
+      <div class="mt-8 flex flex-wrap gap-4 text-center">
+        <a
+          href="/"
+          class="block w-full rounded bg-blue-600 px-12 py-3 text-sm font-medium text-white shadow hover:bg-blue-500 focus:outline-none focus:ring active:bg-blue-500 sm:w-auto"
+        >
+          Get Started
+        </a>
+
+        <a
+          href="#"
+          class="block w-full rounded bg-white px-12 py-3 text-sm font-medium text-blue-600 shadow hover:text-blue-200 focus:outline-none focus:ring active:text-blue-500 sm:w-auto"
+        >
+          Learn More
+        </a>
       </div>
+    </div>
+  </div>
+</section>
     </div>
   );
 };

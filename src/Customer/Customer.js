@@ -5,7 +5,7 @@ const Customer = () => {
     <div>
       <div>
         <section className="mt-7">
-          <div className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20 dark:bg-gray-800 dark:text-gray-100">
+          <div className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20 dark:bg-gray-900 dark:text-gray-100">
             <h2 className="mb-8 text-4xl font-bold leading-none text-center">
               What do we have to offer?
             </h2>
@@ -14,7 +14,7 @@ const Customer = () => {
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   viewBox="0 0 512 512"
-                  className="w-5 h-5 fill-current dark:text-blue-400"
+                  className="w-5 h-5 fill-current text-blue-700"
                 >
                   <path d="M426.072,86.928A238.75,238.75,0,0,0,88.428,424.572,238.75,238.75,0,0,0,426.072,86.928ZM257.25,462.5c-114,0-206.75-92.748-206.75-206.75S143.248,49,257.25,49,464,141.748,464,255.75,371.252,462.5,257.25,462.5Z"></path>
                   <polygon points="221.27 305.808 147.857 232.396 125.23 255.023 221.27 351.063 388.77 183.564 366.142 160.937 221.27 305.808"></polygon>
@@ -25,7 +25,7 @@ const Customer = () => {
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   viewBox="0 0 512 512"
-                  className="w-5 h-5 fill-current dark:text-blue-400"
+                  className="w-5 h-5 fill-current text-blue-700"
                 >
                   <path d="M426.072,86.928A238.75,238.75,0,0,0,88.428,424.572,238.75,238.75,0,0,0,426.072,86.928ZM257.25,462.5c-114,0-206.75-92.748-206.75-206.75S143.248,49,257.25,49,464,141.748,464,255.75,371.252,462.5,257.25,462.5Z"></path>
                   <polygon points="221.27 305.808 147.857 232.396 125.23 255.023 221.27 351.063 388.77 183.564 366.142 160.937 221.27 305.808"></polygon>
@@ -36,7 +36,7 @@ const Customer = () => {
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   viewBox="0 0 512 512"
-                  className="w-5 h-5 fill-current dark:text-blue-400"
+                  className="w-5 h-5 fill-current text-blue-700"
                 >
                   <path d="M426.072,86.928A238.75,238.75,0,0,0,88.428,424.572,238.75,238.75,0,0,0,426.072,86.928ZM257.25,462.5c-114,0-206.75-92.748-206.75-206.75S143.248,49,257.25,49,464,141.748,464,255.75,371.252,462.5,257.25,462.5Z"></path>
                   <polygon points="221.27 305.808 147.857 232.396 125.23 255.023 221.27 351.063 388.77 183.564 366.142 160.937 221.27 305.808"></polygon>
@@ -47,7 +47,7 @@ const Customer = () => {
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   viewBox="0 0 512 512"
-                  className="w-5 h-5 fill-current dark:text-blue-400"
+                  className="w-5 h-5 fill-current text-blue-700"
                 >
                   <path d="M426.072,86.928A238.75,238.75,0,0,0,88.428,424.572,238.75,238.75,0,0,0,426.072,86.928ZM257.25,462.5c-114,0-206.75-92.748-206.75-206.75S143.248,49,257.25,49,464,141.748,464,255.75,371.252,462.5,257.25,462.5Z"></path>
                   <polygon points="221.27 305.808 147.857 232.396 125.23 255.023 221.27 351.063 388.77 183.564 366.142 160.937 221.27 305.808"></polygon>
@@ -58,7 +58,7 @@ const Customer = () => {
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   viewBox="0 0 512 512"
-                  className="w-5 h-5 fill-current dark:text-blue-400"
+                  className="w-5 h-5 fill-current text-blue-700"
                 >
                   <path d="M426.072,86.928A238.75,238.75,0,0,0,88.428,424.572,238.75,238.75,0,0,0,426.072,86.928ZM257.25,462.5c-114,0-206.75-92.748-206.75-206.75S143.248,49,257.25,49,464,141.748,464,255.75,371.252,462.5,257.25,462.5Z"></path>
                   <polygon points="221.27 305.808 147.857 232.396 125.23 255.023 221.27 351.063 388.77 183.564 366.142 160.937 221.27 305.808"></polygon>
@@ -69,7 +69,7 @@ const Customer = () => {
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   viewBox="0 0 512 512"
-                  className="w-5 h-5 fill-current dark:text-blue-400"
+                  className="w-5 h-5 fill-current text-blue-700"
                 >
                   <path d="M426.072,86.928A238.75,238.75,0,0,0,88.428,424.572,238.75,238.75,0,0,0,426.072,86.928ZM257.25,462.5c-114,0-206.75-92.748-206.75-206.75S143.248,49,257.25,49,464,141.748,464,255.75,371.252,462.5,257.25,462.5Z"></path>
                   <polygon points="221.27 305.808 147.857 232.396 125.23 255.023 221.27 351.063 388.77 183.564 366.142 160.937 221.27 305.808"></polygon>
@@ -82,6 +82,68 @@ const Customer = () => {
       </div>
      
       <div>
+      <div className="relative flex flex-col-reverse px-4 py-16 mx-auto lg:block lg:flex-col lg:py-32 xl:py-48 md:px-8 sm:max-w-xl md:max-w-full">
+      <div className="z-0 flex justify-center h-full -mx-4 overflow-hidden lg:pt-24 lg:pb-16 lg:pr-8 xl:pr-0 lg:w-1/2 lg:absolute lg:justify-end lg:bottom-0 lg:left-0 lg:items-center">
+        <img
+          src="https://kitwind.io/assets/kometa/laptop.png"
+          className="object-cover object-right w-full h-auto lg:w-auto lg:h-full"
+          alt=""
+        />
+      </div>
+      <div className="relative flex justify-end max-w-xl mx-auto xl:pr-32 lg:max-w-screen-xl">
+        <div className="mb-16 lg:pr-5 lg:max-w-lg lg:mb-0">
+          <div className="max-w-xl mb-6">
+            <div>
+              <p className="inline-block px-3 py-px mb-4 text-xs font-semibold tracking-wider text-teal-900 uppercase rounded-full bg-teal-accent-400">
+               
+              </p>
+            </div>
+            <h2 className="max-w-lg mb-6 font-sans text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl sm:leading-none">
+              We will bring you
+              <br className="hidden md:block" />
+             
+              <span className="inline-block text-deep-purple-accent-400">
+                online
+              </span>
+            </h2>
+            <p className="text-base text-gray-700 md:text-lg">
+            With Our Price Promise You Won’t Get It Cheaper. Full Stop. Order Now. Beat The Rush. Try  to Free Delivery On All Orders. You Won't Get It Cheaper. Free Order & Collect. Price Match Promise. Flexible Credit Available.
+            </p>
+          </div>
+          <form>
+            <div className="flex flex-col md:flex-row">
+              <input
+                placeholder="Name"
+                required=""
+                type="text"
+                className="flex-grow w-full h-12 px-4 mb-2 transition duration-200 bg-white border border-gray-300 rounded shadow-sm appearance-none md:mr-2 focus:border-deep-purple-accent-400 focus:outline-none focus:shadow-outline"
+              />
+              <input
+                placeholder="Email"
+                required=""
+                type="text"
+                className="flex-grow w-full h-12 px-4 mb-3 transition duration-200 bg-white border border-gray-300 rounded shadow-sm appearance-none md:mb-0 focus:border-deep-purple-accent-400 focus:outline-none focus:shadow-outline"
+              />
+            </div>
+            <div className="flex items-center mt-4">
+              <button
+                type="submit"
+                className="inline-flex items-center justify-center h-12 px-6 mr-6 font-medium tracking-wide text-blue-500 transition duration-200 rounded shadow-md bg-deep-purple-accent-400 hover:bg-deep-purple-accent-700 focus:shadow-outline focus:outline-none"
+              >
+                Subscribe
+              </button>
+              <a
+                href="/"
+                aria-label=""
+                className="inline-flex items-center font-semibold transition-colors duration-200 text-deep-purple-accent-400 hover:text-deep-purple-800"
+              >
+                Learn more
+              </a>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
       <section className="my-8 bg-gray-100 text-gray-800">
 	<div className="container flex flex-col items-center mx-auto mb-12 md:p-10 md:px-12">
 		<h1 className="p-4 text-4xl font-semibold leading-none text-center">What our customers are saying about us</h1>
@@ -102,8 +164,8 @@ const Customer = () => {
 			</div>
 			<div className="flex flex-col items-center justify-center p-8 rounded-b-lg bg-blue-600 text-gray-50">
 				<img src="https://source.unsplash.com/50x50/?portrait?1" alt="" className="w-16 h-16 mb-2 -mt-16 bg-center bg-cover rounded-full bg-gray-500 bg-gray-300" />
-				<p className="text-xl font-semibold leading-tight">Distinctio Animi</p>
-				<p className="text-sm uppercase">Aliquam illum</p>
+				<p className="text-xl font-semibold leading-tight">Andrew Balbirnie</p>
+				<p className="text-sm uppercase">Business Man</p>
 			</div>
 		</div>
 		<div className="flex flex-col max-w-sm mx-4 my-6 shadow-lg">
@@ -121,8 +183,8 @@ const Customer = () => {
 			</div>
 			<div className="flex flex-col items-center justify-center p-8 rounded-b-lg bg-blue-600 text-gray-50">
 				<img src="https://source.unsplash.com/50x50/?portrait?2" alt="" className="w-16 h-16 mb-2 -mt-16 bg-center bg-cover rounded-full bg-gray-500 bg-gray-300" />
-				<p className="text-xl font-semibold leading-tight">Distinctio Animi</p>
-				<p className="text-sm uppercase">Aliquam illum</p>
+				<p className="text-xl font-semibold leading-tight">Harry Tector</p>
+				<p className="text-sm uppercase">Graphic design</p>
 			</div>
 		</div>
 		<div className="flex flex-col max-w-sm mx-4 my-6 shadow-lg">
@@ -140,8 +202,8 @@ const Customer = () => {
 			</div>
 			<div className="flex flex-col items-center justify-center p-8 rounded-b-lg bg-blue-600 text-gray-50">
 				<img src="https://source.unsplash.com/50x50/?portrait?3" alt="" className="w-16 h-16 mb-2 -mt-16 bg-center bg-cover rounded-full bg-gray-500 bg-gray-300" />
-				<p className="text-xl font-semibold leading-tight">Distinctio Animi</p>
-				<p className="text-sm uppercase">Aliquam illum</p>
+				<p className="text-xl font-semibold leading-tight">James McCollum</p>
+				<p className="text-sm uppercase"> Financial Manager</p>
 			</div>
 		</div>
 		<div className="flex flex-col max-w-sm mx-4 my-6 shadow-lg">
@@ -159,24 +221,158 @@ const Customer = () => {
 			</div>
 			<div className="flex flex-col items-center justify-center p-8 rounded-b-lg bg-blue-600 text-gray-50">
 				<img src="https://source.unsplash.com/50x50/?portrait?4" alt="" className="w-16 h-16 mb-2 -mt-16 bg-center bg-cover rounded-full bg-gray-500 bg-gray-300" />
-				<p className="text-xl font-semibold leading-tight">Distinctio Animi</p>
-				<p className="text-sm uppercase">Aliquam illum</p>
+				<p className="text-xl font-semibold leading-tight">Benjamin White</p>
+				<p className="text-sm uppercase">Bank Officers </p>
 			</div>
 		</div>
 	</div>
 </section>
       </div>
-      <div>
-        <section className="py-6 dark:bg-gray-800 dark:text-gray-100">
-          <div className="container flex flex-col items-center justify-center p-4 mx-auto space-y-8 sm:p-10">
-            <h1 className="text-4xl font-bold leading-none text-center sm:text-5xl">
-              Our team
-            </h1>
-            <p className="max-w-2xl text-center dark:text-gray-400">
-              At Better Work, we are driven by shared standards of excellence,
+      <div className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
+      <div className="max-w-xl mb-10 md:mx-auto sm:text-center lg:max-w-2xl md:mb-12">
+        <div>
+          <p className="inline-block px-3 py-px mb-4 text-xs font-semibold tracking-wider text-teal-900 uppercase rounded-full bg-teal-accent-400">
+           
+          </p>
+        </div>
+        <h2 className="max-w-lg mb-6 font-sans text-3xl font-bold leading-none tracking-tight text-gray-900 sm:text-4xl md:mx-auto">
+          <span className="relative inline-block">
+            <svg
+              viewBox="0 0 52 24"
+              fill="currentColor"
+              className="absolute top-0 left-0 z-0 hidden w-32 -mt-8 -ml-20 text-blue-gray-100 lg:w-32 lg:-ml-28 lg:-mt-10 sm:block"
+            >
+              <defs>
+                <pattern
+                  id="247432cb-6e6c-4bec-9766-564ed7c230dc"
+                  x="0"
+                  y="0"
+                  width=".135"
+                  height=".30"
+                >
+                  <circle cx="1" cy="1" r=".7" />
+                </pattern>
+              </defs>
+              <rect
+                fill="url(#247432cb-6e6c-4bec-9766-564ed7c230dc)"
+                width="52"
+                height="24"
+              />
+            </svg>
+            <span className="relative">Welcome</span>
+          </span>{' '}
+          our talented team of professionals
+        </h2>
+        <p className="text-base text-gray-700 md:text-lg">
+        At Better Work, we are driven by shared standards of excellence,
               guided by the same integrity, and motivated by a common ambition
               to improve lives.!
-            </p>
+        </p>
+      </div>
+      <div className="grid gap-10 row-gap-8 mx-auto sm:row-gap-10 lg:max-w-screen-lg sm:grid-cols-2 lg:grid-cols-3">
+        <div className="flex">
+          <img
+            className="object-cover w-20 h-20 mr-4 rounded-full shadow"
+            src="https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=3&amp;h=750&amp;w=1260"
+            alt="Person"
+          />
+          <div className="flex flex-col justify-center">
+            <p className="text-lg font-bold">Oliver Aguilerra</p>
+            <p className="text-sm text-gray-800">1st Product Manager</p>
+          </div>
+        </div>
+        <div className="flex">
+          <img
+            className="object-cover w-20 h-20 mr-4 rounded-full shadow"
+            src="https://images.pexels.com/photos/2381069/pexels-photo-2381069.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=2&amp;h=750&amp;w=1260"
+            alt="Person"
+          />
+          <div className="flex flex-col justify-center">
+            <p className="text-lg font-bold">Marta Clermont</p>
+            <p className="text-sm text-gray-800">Design Team Lead</p>
+          </div>
+        </div>
+        <div className="flex">
+          <img
+            className="object-cover w-20 h-20 mr-4 rounded-full shadow"
+            src="https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=2&amp;h=750&amp;w=1260"
+            alt="Person"
+          />
+          <div className="flex flex-col justify-center">
+            <p className="text-lg font-bold">Anthony Geek</p>
+            <p className="text-sm text-gray-800">2nd Product Manager  </p>
+          </div>
+        </div>
+        <div className="flex">
+          <img
+            className="object-cover w-20 h-20 mr-4 rounded-full shadow"
+            src="https://images.pexels.com/photos/3747435/pexels-photo-3747435.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=2&amp;h=750&amp;w=1260"
+            alt="Person"
+          />
+          <div className="flex flex-col justify-center">
+            <p className="text-lg font-bold">Alice Melbourne</p>
+            <p className="text-sm text-gray-800">Human Resources</p>
+          </div>
+        </div>
+        <div className="flex">
+          <img
+            className="object-cover w-20 h-20 mr-4 rounded-full shadow"
+            src="https://images.pexels.com/photos/3785077/pexels-photo-3785077.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=2&amp;w=500"
+            alt="Person"
+          />
+          <div className="flex flex-col justify-center">
+            <p className="text-lg font-bold">Martin Garix</p>
+            <p className="text-sm text-gray-800">Customer Service Executive</p>
+          </div>
+        </div>
+        <div className="flex">
+          <img
+            className="object-cover w-20 h-20 mr-4 rounded-full shadow"
+            src="https://images.pexels.com/photos/3931603/pexels-photo-3931603.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=2&amp;h=750&amp;w=1260"
+            alt="Person"
+          />
+          <div className="flex flex-col justify-center">
+            <p className="text-lg font-bold">Andrew Larkin</p>
+            <p className="text-sm text-gray-800">Backend Developer</p>
+          </div>
+        </div>
+        <div className="flex">
+          <img
+            className="object-cover w-20 h-20 mr-4 rounded-full shadow"
+            src="https://images.pexels.com/photos/774909/pexels-photo-774909.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=3&amp;h=750&amp;w=1260"
+            alt="Person"
+          />
+          <div className="flex flex-col justify-center">
+            <p className="text-lg font-bold">Sophie Denmo</p>
+            <p className="text-sm text-gray-800">Designer UI/UX</p>
+          </div>
+        </div>
+        <div className="flex">
+          <img
+            className="object-cover w-20 h-20 mr-4 rounded-full shadow"
+            src="https://images.pexels.com/photos/3931553/pexels-photo-3931553.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=2&amp;h=750&amp;w=1260"
+            alt="Person"
+          />
+          <div className="flex flex-col justify-center">
+            <p className="text-lg font-bold">Benedict Caro</p>
+            <p className="text-sm text-gray-800">Frontend Developer</p>
+          </div>
+        </div>
+        <div className="flex">
+          <img
+            className="object-cover w-20 h-20 mr-4 rounded-full shadow"
+            src="https://images.pexels.com/photos/3783255/pexels-photo-3783255.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=2&amp;h=750&amp;w=1260"
+            alt="Person"
+          />
+          <div className="flex flex-col justify-center">
+            <p className="text-lg font-bold">Adam Molly</p>
+            <p className="text-sm text-gray-800">Full Stack Developer</p>
+          </div>
+        </div>
+      </div>
+        <section className="py-6 dark:bg-gray-800 dark:text-gray-100">
+          <div className="container flex flex-col items-center justify-center p-4 mx-auto space-y-8 sm:p-10">
+           
             <div className="flex flex-row flex-wrap-reverse justify-center">
               <div className="flex flex-col justify-center m-8 text-center">
                 <img
@@ -230,6 +426,22 @@ const Customer = () => {
           </div>
         </section>
       </div>
+      <div className="p-5 mx-auto sm:p-10 md:p-16 bg-gray-100 text-gray-800">
+	<div className="flex flex-col max-w-3xl mx-auto overflow-hidden rounded">
+		<img src="https://plus.unsplash.com/premium_photo-1664302380388-7749cad65e37?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80" alt="" className="w-full h-60 sm:h-96 bg-gray-500" />
+		<div className="p-6 pb-12 m-4 mx-auto -mt-16 space-y-6 lg:max-w-2xl sm:px-10 sm:mx-12 lg:rounded-md bg-gray-50">
+			<div className="space-y-2">
+				<a rel="noopener noreferrer" href="#" className="inline-block text-2xl font-semibold sm:text-3xl">The Best Customer Terms</a>
+				<p className="text-xs text-gray-600">
+					<a rel="noopener noreferrer" href="#" className="text-xs hover:underline">Leah William</a>
+				</p>
+			</div>
+			<div className="text-gray-800">
+				<p>Our Customer Terms set out terms and conditions on which we provide products and services.</p>
+			</div>
+		</div>
+	</div>
+</div>
       <div>
         <section className="p-6 dark:bg-gray-800 dark:text-gray-100 mt-8">
           <div className="container p-4 mx-auto text-center">
