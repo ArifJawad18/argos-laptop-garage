@@ -8,7 +8,7 @@ const Banner = () => {
 >
 
   <div
-    class="absolute inset-0 bg-white/70 sm:bg-transparent sm:bg-gradient-to-r sm:from-black/50 sm:to-white/40"
+    class="absolute inset-0 bg-white/70 sm:bg-transparent sm:bg-gradient-to-r sm:from-black/50 sm:to-white/5"
   ></div>
 
   <div
