@@ -1027,7 +1027,7 @@ const Customer = () => {
             Why Choose Us
           </span>
           <h2 class="text-dark mb-8 text-3xl font-bold sm:text-4xl">
-            Make your customers happy by giving services.
+            Make Our Customers Happy by Giving Services.
           </h2>
           <p class="text-body-color mb-8 text-base">
            Order for the supply of Goods Services, as set out in the Customer’s purchase order form here.
