@@ -1054,14 +1054,10 @@ const Customer = () => {
             Make your customers happy by giving services.
           </h2>
           <p class="text-body-color mb-8 text-base">
-            It is a long established fact that a reader will be distracted by
-            the readable content of a page when looking at its layout. The point
-            of using Lorem Ipsum is that it has a more-or-less.
+           Order for the supply of Goods Services, as set out in the Customer’s purchase order form here.
           </p>
           <p class="text-body-color mb-12 text-base">
-            A domain name is one of the first steps to establishing your brand.
-            Secure a consistent brand image with a domain name that matches your
-            business.
+          Shall pay all amounts due under the Contract in full and in the currency stated on the invoice without any deduction or withholding except as required by law and the Customer shall not be entitled to assert any credit, set-off or counterclaim against  in order to justify withholding payment of any such amount in whole or in part. without limiting its other rights or remedies, set off any amount owing to it by the Customer against any amount payable to the Customer.
           </p>
           <a
             href="javascript:void(0)"
