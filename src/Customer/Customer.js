@@ -144,89 +144,65 @@ const Customer = () => {
         </div>
       </div>
     </div>
-      <section className="my-8 bg-gray-100 text-gray-800">
-	<div className="container flex flex-col items-center mx-auto mb-12 md:p-10 md:px-12">
-		<h1 className="p-4 text-4xl font-semibold leading-none text-center">What our customers are saying about us</h1>
-	</div>
-	<div className="container flex flex-col items-center justify-center mx-auto lg:flex-row lg:flex-wrap lg:justify-evenly lg:px-10">
-		<div className="flex flex-col max-w-sm mx-4 my-6 shadow-lg">
-			<div className="px-4 py-12 rounded-t-lg sm:px-8 md:px-12 bg-gray-50">
-				<p className="relative px-6 py-1 text-lg italic text-center text-gray-800">
-					<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" fill="currentColor" className="w-8 h-8 text-blue-600">
-						<path d="M232,246.857V16H16V416H54.4ZM48,48H200V233.143L48,377.905Z"></path>
-						<path d="M280,416h38.4L496,246.857V16H280ZM312,48H464V233.143L312,377.905Z"></path>
-					</svg>"I buy dell laptop! I found a great laptop and am so grateful!"
-					<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" fill="currentColor" className="absolute right-0 w-8 h-8 text-blue-600">
-						<path d="M280,185.143V416H496V16H457.6ZM464,384H312V198.857L464,54.1Z"></path>
-						<path d="M232,16H193.6L16,185.143V416H232ZM200,384H48V198.857L200,54.1Z"></path>
-					</svg>
-				</p>
+    <section className="bg-gray-100 text-gray-800">
+	<div className="container px-6 py-12 mx-auto">
+		<div className="grid items-center gap-4 xl:grid-cols-5">
+			<div className="max-w-2xl mx-auto my-8 space-y-4 text-center xl:col-span-2 xl:text-left">
+				<h2 className="text-4xl font-bold">What our customers are saying about us</h2>
+				<p className="text-gray-600">Read and use these e-commerce quotes to help,  Laptop online store.</p>
 			</div>
-			<div className="flex flex-col items-center justify-center p-8 rounded-b-lg bg-blue-600 text-gray-50">
-				<img src="https://source.unsplash.com/50x50/?portrait?1" alt="" className="w-16 h-16 mb-2 -mt-16 bg-center bg-cover rounded-full bg-gray-500 bg-gray-300" />
-				<p className="text-xl font-semibold leading-tight">Andrew Balbirnie</p>
-				<p className="text-sm uppercase">Business Man</p>
-			</div>
-		</div>
-		<div className="flex flex-col max-w-sm mx-4 my-6 shadow-lg">
-			<div className="px-4 py-12 rounded-t-lg sm:px-8 md:px-12 bg-gray-50">
-				<p className="relative px-6 py-1 text-lg italic text-center text-gray-800">
-					<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" fill="currentColor" className="w-8 h-8 text-blue-600">
-						<path d="M232,246.857V16H16V416H54.4ZM48,48H200V233.143L48,377.905Z"></path>
-						<path d="M280,416h38.4L496,246.857V16H280ZM312,48H464V233.143L312,377.905Z"></path>
-					</svg>"I loved everything about this website! This is flexible, i buy from home. already made my life better!"
-					<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" fill="currentColor" className="absolute right-0 w-8 h-8 text-blue-600">
-						<path d="M280,185.143V416H496V16H457.6ZM464,384H312V198.857L464,54.1Z"></path>
-						<path d="M232,16H193.6L16,185.143V416H232ZM200,384H48V198.857L200,54.1Z"></path>
-					</svg>
-				</p>
-			</div>
-			<div className="flex flex-col items-center justify-center p-8 rounded-b-lg bg-blue-600 text-gray-50">
-				<img src="https://source.unsplash.com/50x50/?portrait?2" alt="" className="w-16 h-16 mb-2 -mt-16 bg-center bg-cover rounded-full bg-gray-500 bg-gray-300" />
-				<p className="text-xl font-semibold leading-tight">Harry Tector</p>
-				<p className="text-sm uppercase">Graphic design</p>
-			</div>
-		</div>
-		<div className="flex flex-col max-w-sm mx-4 my-6 shadow-lg">
-			<div className="px-4 py-12 rounded-t-lg sm:px-8 md:px-12 bg-gray-50">
-				<p className="relative px-6 py-1 text-lg italic text-center text-gray-800">
-					<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" fill="currentColor" className="w-8 h-8 text-blue-600">
-						<path d="M232,246.857V16H16V416H54.4ZM48,48H200V233.143L48,377.905Z"></path>
-						<path d="M280,416h38.4L496,246.857V16H280ZM312,48H464V233.143L312,377.905Z"></path>
-					</svg>"I am so grateful."This is the second time I used this website, and found the perfect laptop. Thank you!!!!"
-					<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" fill="currentColor" className="absolute right-0 w-8 h-8 text-blue-600">
-						<path d="M280,185.143V416H496V16H457.6ZM464,384H312V198.857L464,54.1Z"></path>
-						<path d="M232,16H193.6L16,185.143V416H232ZM200,384H48V198.857L200,54.1Z"></path>
-					</svg>
-				</p>
-			</div>
-			<div className="flex flex-col items-center justify-center p-8 rounded-b-lg bg-blue-600 text-gray-50">
-				<img src="https://source.unsplash.com/50x50/?portrait?3" alt="" className="w-16 h-16 mb-2 -mt-16 bg-center bg-cover rounded-full bg-gray-500 bg-gray-300" />
-				<p className="text-xl font-semibold leading-tight">James McCollum</p>
-				<p className="text-sm uppercase"> Financial Manager</p>
-			</div>
-		</div>
-		<div className="flex flex-col max-w-sm mx-4 my-6 shadow-lg">
-			<div className="px-4 py-12 rounded-t-lg sm:px-8 md:px-12 bg-gray-50">
-				<p className="relative px-6 py-1 text-lg italic text-center text-gray-800">
-					<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" fill="currentColor" className="w-8 h-8 text-blue-600">
-						<path d="M232,246.857V16H16V416H54.4ZM48,48H200V233.143L48,377.905Z"></path>
-						<path d="M280,416h38.4L496,246.857V16H280ZM312,48H464V233.143L312,377.905Z"></path>
-					</svg>"You are amazing! Argos laptop garage gave me to find the best laptop I've ever had."
-					<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" fill="currentColor" className="absolute right-0 w-8 h-8 text-blue-600">
-						<path d="M280,185.143V416H496V16H457.6ZM464,384H312V198.857L464,54.1Z"></path>
-						<path d="M232,16H193.6L16,185.143V416H232ZM200,384H48V198.857L200,54.1Z"></path>
-					</svg>
-				</p>
-			</div>
-			<div className="flex flex-col items-center justify-center p-8 rounded-b-lg bg-blue-600 text-gray-50">
-				<img src="https://source.unsplash.com/50x50/?portrait?4" alt="" className="w-16 h-16 mb-2 -mt-16 bg-center bg-cover rounded-full bg-gray-500 bg-gray-300" />
-				<p className="text-xl font-semibold leading-tight">Benjamin White</p>
-				<p className="text-sm uppercase">Bank Officers </p>
+			<div className="p-6 xl:col-span-3">
+				<div className="grid gap-4 md:grid-cols-2">
+					<div className="grid content-center gap-4">
+						<div className="p-6 rounded shadow-md bg-gray-50">
+							<p>"I am so grateful."This is the second time I used this website, and found the perfect laptop. Thank you!!!!"</p>
+							<div className="flex items-center mt-4 space-x-4">
+								<img src="https://source.unsplash.com/50x50/?portrait?1" alt="" className="w-12 h-12 bg-center bg-cover rounded-full bg-gray-500" />
+								<div>
+									<p className="text-lg font-semibold">James McCollum</p>
+									<p className="text-sm text-gray-600">FINANCIAL MANAGER</p>
+								</div>
+							</div>
+						</div>
+						<div className="p-6 rounded shadow-md bg-gray-50">
+							<p>"You are amazing! Argos laptop garage gave me to find the best laptop I've ever had."</p>
+							<div className="flex items-center mt-4 space-x-4">
+								<img src="https://source.unsplash.com/50x50/?portrait?2" alt="" className="w-12 h-12 bg-center bg-cover rounded-full bg-gray-500" />
+								<div>
+									<p className="text-lg font-semibold">Benjamin White</p>
+									<p className="text-sm text-gray-600">BANK OFFICERS</p>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div className="grid content-center gap-4">
+						<div className="p-6 rounded shadow-md bg-gray-50">
+							<p>"I loved everything about this website! This is flexible, i buy from home. already made my life better!</p>
+							<div className="flex items-center mt-4 space-x-4">
+								<img src="https://source.unsplash.com/50x50/?portrait?3" alt="" className="w-12 h-12 bg-center bg-cover rounded-full bg-gray-500" />
+								<div>
+									<p className="text-lg font-semibold">Harry Tec</p>
+									<p className="text-sm text-gray-600">GRAPHIC DESIGN</p>
+								</div>
+							</div>
+						</div>
+						<div className="p-6 rounded shadow-md bg-gray-50">
+							<p>"I buy dell laptop! I found a great laptop and am so grateful..!"</p>
+							<div className="flex items-center mt-4 space-x-4">
+								<img src="https://source.unsplash.com/50x50/?portrait?4" alt="" className="w-12 h-12 bg-center bg-cover rounded-full bg-gray-500" />
+								<div>
+									<p className="text-lg font-semibold">Andrew Balbirnie</p>
+									<p className="text-sm text-gray-600">BUSINESS MAN</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
 			</div>
 		</div>
 	</div>
 </section>
+     
       </div>
       <div className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
       <div className="max-w-xl mb-10 md:mx-auto sm:text-center lg:max-w-2xl md:mb-12">
