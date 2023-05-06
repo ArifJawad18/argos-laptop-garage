@@ -4,7 +4,8 @@ const Blog = () => {
   return (
     <div>
       <section className="bg-white text-gray-900">
-        <div className="container flex flex-col justify-center p-4 mx-auto md:p-8">
+        <div className="container flex flex-col justify-center p-4 mx-auto md:p-8" data-aos="fade-up"
+     data-aos-duration="3000">
           <h2 className="mb-12 text-4xl font-bold leading-none text-center sm:text-5xl">
             Blog Questions
           </h2>

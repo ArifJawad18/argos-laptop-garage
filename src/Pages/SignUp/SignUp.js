@@ -39,7 +39,11 @@ const SignUp = () => {
   };
 
   return (
-    <div className="h-[620px] flex justify-center items-center ">
+    <div className="h-[620px] flex justify-center items-center " data-aos="zoom-in-left">
+      <div className="form-control mt-6">
+         
+         <iframe className="h-96 w-96" src="https://embed.lottiefiles.com/animation/93385"></iframe>
+            </div>
       <div className="w-96 p-7 shadow-2xl bg-base-100">
         <h2 className="text-blue-500 text-3xl font-bold text-center">
           {" "}

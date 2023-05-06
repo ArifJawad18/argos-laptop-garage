@@ -4,15 +4,16 @@ const Banner = () => {
   return (
     <div>
       <section
-  class="relative bg-[url(https://images.unsplash.com/photo-1496181133206-80ce9b88a853?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=871&q=80)] bg-cover bg-center bg-no-repeat"
+  class="relative bg-[url(https://images.unsplash.com/photo-1496181133206-80ce9b88a853?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=871&q=80)] bg-cover bg-center bg-no-repeat " 
 >
 
   <div
-    class="absolute inset-0 bg-white/70 sm:bg-transparent sm:bg-gradient-to-r sm:from-black/50 sm:to-white/5"
+    class="absolute inset-0 bg-white/70 sm:bg-transparent sm:bg-gradient-to-r sm:from-black/50 sm:to-white/5"  
   ></div>
 
   <div
-    class="relative mx-auto max-w-screen-xl px-4 py-32 sm:px-6 lg:flex lg:h-screen lg:items-center lg:px-8"
+    class="relative mx-auto max-w-screen-xl px-4 py-32 sm:px-6 lg:flex lg:h-screen lg:items-center lg:px-8" data-aos="flip-left"
+    data-aos-duration="2000"
   >
     <div class="max-w-xl text-center sm:text-left">
       <h1 class="text-3xl text-white font-extrabold sm:text-5xl">
