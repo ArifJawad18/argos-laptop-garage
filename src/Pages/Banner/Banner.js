@@ -13,7 +13,7 @@ const Banner = () => {
 
   <div
     class="relative mx-auto max-w-screen-xl px-4 py-32 sm:px-6 lg:flex lg:h-screen lg:items-center lg:px-8" data-aos="flip-left"
-    data-aos-duration="2000"
+    data-aos-duration="1000"
   >
     <div class="max-w-xl text-center sm:text-left">
       <h1 class="text-3xl text-white font-extrabold sm:text-5xl">

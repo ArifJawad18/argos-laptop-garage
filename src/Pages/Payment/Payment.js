@@ -18,7 +18,8 @@ const Payment = () => {
 
   return (
     <div>
-      <div className="mt-5">
+      <div className="mt-5" data-aos="fade-up"
+     data-aos-duration="1000">
         <section className="p-6 bg-white text-gray-900">
           <form
             novalidate=""

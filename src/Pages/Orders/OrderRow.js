@@ -7,7 +7,8 @@ const OrderRow = ({ order, handleDelete, handleStatusUpdate }) => {
 
   return (
     <div>
-      <div className="overflow-x-auto w-full">
+      <div className="overflow-x-auto w-full" data-aos="fade-up"
+     data-aos-duration="1000">
         <table className="table w-full">
           <tbody>
             <tr>
