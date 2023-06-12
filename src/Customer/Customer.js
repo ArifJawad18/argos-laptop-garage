@@ -5,7 +5,7 @@ const Customer = () => {
     <div>
       <div>
         <section className="mt-7">
-          <div className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20 dark:bg-gray-900 dark:text-gray-100" data-aos="zoom-out-down">
+          <div className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20 dark:bg-gray-100 dark:text-gray-900" data-aos="zoom-out-down">
             <h2 className="mb-8 text-4xl font-bold leading-none text-center" >
               What do we have to offer?
             </h2>
@@ -346,7 +346,7 @@ const Customer = () => {
           </div>
         </div>
       </div>
-        <section className="py-6 dark:bg-gray-800 dark:text-gray-100">
+        <section className="py-6 dark:bg-white dark:text-gray-900">
           <div className="container flex flex-col items-center justify-center p-4 mx-auto space-y-8 sm:p-10">
            
             <div className="flex flex-row flex-wrap-reverse justify-center">
@@ -1056,7 +1056,7 @@ const Customer = () => {
 
 
       <div>
-        <section className="p-6 dark:bg-gray-800 dark:text-gray-100 mt-8">
+        <section className="p-6 dark:bg-white dark:text-gray-900 mt-8">
           <div className="container p-4 mx-auto text-center">
             <h2 className="text-4xl font-bold" >
               Trusted by the industry leaders

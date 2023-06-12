@@ -3,7 +3,7 @@ import React from 'react';
 const Contact = () => {
     return (
         <div>
-            <section className="py-6 dark:bg-gray-800 dark:text-gray-50">
+            <section className="py-6 dark:bg-gray-50 dark:text-gray-900">
 	<div className="grid max-w-6xl grid-cols-1 px-6 mx-auto lg:px-8 md:grid-cols-2 md:divide-x" data-aos="flip-left"
      data-aos-easing="ease-out-cubic"
      data-aos-duration="2000">
@@ -35,17 +35,17 @@ const Contact = () => {
 		<form novalidate="" className="flex flex-col py-6 space-y-6 md:py-0 md:px-6 ng-untouched ng-pristine ng-valid">
 			<label className="block">
 				<span className="mb-1">Full name</span>
-				<input type="text" placeholder="Full Name" className="block w-full rounded-md shadow-sm focus:ring focus:ring-opacity-75 focus:ring-blue-400 dark:bg-gray-800" />
+				<input type="text" placeholder="Full Name" className="block w-full rounded-md shadow-sm focus:ring focus:ring-opacity-75 focus:ring-gray-900 dark:bg-white" />
 			</label>
 			<label className="block">
 				<span className="mb-1">Email address</span>
-				<input type="email" placeholder="Email" className="block w-full rounded-md shadow-sm focus:ring focus:ring-opacity-75 focus:ring-blue-400 dark:bg-gray-800" />
+				<input type="email" placeholder="Email" className="block w-full rounded-md shadow-sm focus:ring focus:ring-opacity-75 focus:ring-gray-900 dark:bg-white" />
 			</label>
 			<label className="block">
 				<span className="mb-1">Message</span>
 				<textarea rows="3"  placeholder="Message" className="block w-full rounded-md focus:ring focus:ring-opacity-75 focus:ring-blue-400 dark:bg-white"></textarea>
 			</label>
-			<button type="button" className="self-center px-8 py-3 text-lg rounded focus:ring hover:ring focus:ring-opacity-75 bg-blue-400 dark:text-blue-400 focus:ring-blue-400 hover:ring-blue-400 text-white">Submit</button>
+			<button type="button" className="self-center px-8 py-3 text-lg rounded focus:ring hover:ring focus:ring-opacity-75 bg-blue-400 dark:text-black focus:ring-blue-400 hover:ring-blue-400 text-black">Submit</button>
 		</form>
 	</div>
 </section>
