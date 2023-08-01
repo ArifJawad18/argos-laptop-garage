@@ -1065,9 +1065,7 @@ const Customer = () => {
               </div>
             </div>
             <div
-              class="w-full px-4 lg:w-1/2 xl:w-5/12"
-              data-aos="fade-up"
-              data-aos-anchor-placement="top-center"
+             
             
             >
               <div class="mt-10 lg:mt-0">
